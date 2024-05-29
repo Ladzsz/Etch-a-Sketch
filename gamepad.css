@@ -1,28 +1,52 @@
+/*Below i am styling the html*/
+
 html {
     background-color: black;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Bangers', sans-serif;
+      
 }
 
+/*below i am styling the body*/
+body {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  margin: 0; 
+}
+
+/*below the header and its text is being styled*/
 header {
     color: yellow;
     
 }
 
 .introtext {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
+/*below the canvas and the reset button are being positioned and styled properly.*/
 .canvas {
-    color: white;
-    border: 1px solid white;
-    display: flex;
-    justify-content: center;
+    border: 50px solid #ffcc00;
+  border-radius: 100px;
+  padding: 50px;
+  background-color: white;
 }
 
 .resetbutton {
-    display: flex;
-    justify-content: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: 2px solid #ffcc00;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 255px;
+  
+  
+  
 }
 
 
