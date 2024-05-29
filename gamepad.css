@@ -1,0 +1,32 @@
+html {
+    background-color: black;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+header {
+    color: yellow;
+    
+}
+
+.introtext {
+    display: flex;
+    justify-content: center;
+}
+
+.canvas {
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.resetbutton {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
