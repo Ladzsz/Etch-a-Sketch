@@ -1,14 +1,12 @@
-/*Below i am styling the html*/
-
+/* Styling the html */
 html {
-    background-color: black;
-    font-family: 'Bangers', sans-serif;
-      
+  background-color: black;
+  font-family: 'Bangers', sans-serif;
 }
 
-/*below i am styling the body*/
+/* Styling the body */
 body {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -16,25 +14,35 @@ body {
   margin: 0; 
 }
 
-/*below the header and its text is being styled*/
+/* Styling the header and its text */
 header {
-    color: yellow;
-    
+  color: yellow;
 }
 
 .introtext {
-    text-align: center;
+  text-align: center;
 }
 
-/*below the canvas and the reset button are being positioned and styled properly.*/
-.canvas {
-    border: 50px solid #ffcc00;
+/* Styling the canvas and the reset button */
+#canvas {
+  display: grid;
+  grid-template-columns: repeat(10, 30px); 
+  grid-gap: 1px;
+  border: 50px solid #ffcc00;
   border-radius: 100px;
   padding: 50px;
   background-color: white;
 }
 
-.resetbutton {
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid black; 
+  cursor: pointer;
+}
+
+#resetbutton {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   font-size: 20px;
   padding: 10px 20px;
@@ -43,14 +51,6 @@ header {
   color: black;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 255px;
-  
-  
-  
+  margin-top: 20px;
+  margin-left: 211px;
 }
-
-
-
-
-
-
