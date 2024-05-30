@@ -32,7 +32,6 @@ header {
   border-radius: 100px;
   padding: 50px;
   background-color: white;
-  cursor: pointer;
 }
 
 .cell {
@@ -40,6 +39,7 @@ header {
   height: 30px;
   background-color: white;
   border: 1px solid black; 
+  cursor: pointer;
 }
 
 #resetbutton {
@@ -52,4 +52,5 @@ header {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
+  margin-left: 211px;
 }
