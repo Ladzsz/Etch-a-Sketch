@@ -27,7 +27,7 @@ header {
 }
 
 /*below the canvas and the reset button are being positioned and styled properly.*/
-.canvas {
+#canvas {
     border: 50px solid #ffcc00;
   border-radius: 100px;
   padding: 50px;
@@ -35,7 +35,7 @@ header {
   cursor: pointer;
 }
 
-.resetbutton {
+#resetbutton {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   font-size: 20px;
   padding: 10px 20px;
