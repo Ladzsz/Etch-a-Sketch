@@ -6,37 +6,24 @@
   <title>London's etch-a-sketch</title>
   <link rel="stylesheet" href="gamepad.css">
 </head>
-
-
 <body>
-
-    <!--below is the header tag where i am
-    making the intro text for the page-->
 
   <header>
     <div class="introtext">
-    <br>
-    <br>
-    <p><br><br>Have fun drawing whatever you like!</p>
-    <br>
-    <p>Press reset to Erase</p>
+      <p>Have fun drawing whatever you like!</p>
+      <p>Press reset to erase</p>
     </div>
   </header>
 
-  <!--below is the main tag where the drawing canvas and button reside.-->
   <main>
-    <div canvas="canvas_and_button">
-    <canvas id="canvas" width="400" height="400"></canvas>
-    <br>
+    <div id="canvas"></div>
     <button id="resetbutton">Reset</button>
-    </div>
-    
   </main>
+
   <footer>
-    
+    <!-- Add any footer content here if needed -->
   </footer>
 
-  <!--javascript file below-->
   <script src="drawing.js"></script>
 </body>
 </html>
